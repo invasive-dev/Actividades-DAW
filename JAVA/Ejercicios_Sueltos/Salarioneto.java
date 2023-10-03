@@ -13,7 +13,7 @@ Escribir nombre, salario.*/
      double horas,T_NORMAL,HORAS_NORMAL,h_extra,salario_extra,salario_normal,salario;
      Scanner sc = new Scanner(System.in);
      System.out.print("Ingresa el numero de horas trabajadas esta semana: ");
-     horas = sc.nextInt(); // Leer horas
+     horas = sc.nextDouble(); // Leer horas
      
      T_NORMAL = 20;
      HORAS_NORMAL = 35; // Operacion inicial
